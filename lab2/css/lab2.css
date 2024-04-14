@@ -1,0 +1,20 @@
+h1 {
+    color:crimson;
+    font-size: 300%;
+}
+
+p {
+    font-family:cursive;
+    text-indent: 15px;
+    margin-left: 50px;
+}
+
+#content {
+    background-color: hotpink;
+    width: 1500px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border:solid 1px darkorchid;
+    font-size: 30px;
+}
