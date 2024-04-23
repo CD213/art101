@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocode</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,7 +23,7 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocode</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>Restate the challenge of the lab here.</p>
@@ -35,12 +35,13 @@
 			</div>
 
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
-
-			<div class="minor-section">
 					<h2>Results</h2>
+					<li>Psuedocode for shooting a basketball</li>
+					<IMG id="portrait" src="img/lab 4 sc 2.png">
+					<li>Psuedocode for chess game</li>
+					<IMG id="portrait" src="img/lab 4 sc 3.png">
+					<li>JS screenshot</li>
+					<IMG id="portrait" src="img/lab 4 sc 4.png">
 					<div id="output"></div>
 			</div>
 			<section>
@@ -96,3 +97,28 @@
 	</main>
 </body>
 </html>
+
+<pre><code>
+	//Pseudocode for a computer game
+	  //Game: Chess
+	  //Set up game board
+		  //Create a 8x8 grid
+		  //Alternate the color of each square between black and white
+	  //Define peices
+		  //Pawns move 1 square at a time and can only take one square diagonally, can move 2 squares forward if 1st move
+		  //Rook can move horizontally and vertically as far as possible, only 1 direction at a time
+		  //Bishop can move diagonally as far as possibly
+		  //Knights can move vertically 3 squares and horizontally 1, or 3 squares horizontally and one square vertically
+		  //Queens can move horizontally, vertically, and diagonally as far as possible, only one direction at a time
+		  //Kings can only move one square horizontally, vertically, or diagonally
+		  //Define the value of each piece
+	  //Impliment rules/Game logic
+		  //Check legitimacy of player moves
+		  //Reject any moves that cannot be made under the rules/the piece cannot make
+		  //Create piece taking system
+		  //Keep track of and check value of taken pieces
+		  //Keep track of and check positioning of all pieces
+		  //Keep track of check and checkmate system
+		  //Make sure checks must be solved before any other move can be made
+		  //Keep track of king at all times, reject any move that puts it in danger
+	</code></pre>
