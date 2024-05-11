@@ -31,6 +31,6 @@
   .special {
     background-color: rgb(184, 11, 141);
     border: dotted 50px rgb(0, 255, 64);
-    color: pink;
+    color: rgb(0, 17, 255);
     font-weight:bolder;
 }
